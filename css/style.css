@@ -14,12 +14,11 @@ nav{
     display: flex;
     justify-content: space-evenly;
 }
-li{
-    list-style-type: none;
-}
+
 .navBar{
     margin: 1em;
     font-size: 2em;
+    height: 15vh;
 }
 .profilePic{
     border: solid grey .2em;
@@ -28,9 +27,9 @@ li{
     margin-bottom: 1%;
 }
 .projNav{
-    display: none;
-
+    font-size: .5em;
+    display:none;
 }
-#nav1:hover {
+#nav1:hover .projNav{
     display: block;
 }
