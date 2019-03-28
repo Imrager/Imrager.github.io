@@ -1,35 +1,66 @@
 body{
-
+    background: url(../images/background.gif);
+    background-size: 100%;
 }
+/* header include profile pic */
 header{
-    background-color: red;
     height: 50vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
+/* nav bar  */
 nav{
-    background-color: bisque;
     height: 50vh;
     display: flex;
     justify-content: space-evenly;
+    color: white;
 }
 
 .navBar{
     margin: 1em;
     font-size: 2em;
-    height: 15vh;
+    height: 7vh;
 }
+.navBar:hover{
+    border-bottom: 2px solid white;
+}
+/* profile pic style */
 .profilePic{
     border: solid grey .2em;
     border-radius: 2em; 
     height: 70%;
     margin-bottom: 1%;
-}
+ }
+/* drop down for profile on nav bar */
 .projNav{
     font-size: .5em;
     display:none;
+    position: absolute;
+    padding: 1%;
 }
 #nav1:hover .projNav{
     display: block;
+}
+/* side pop up of website */
+.webPre{
+    border: solid white 1px;
+    height: 40vh;
+    width: 40vw;
+    margin-left: 20%;
+    box-shadow: .4em .4em .1em .1em grey;
+}
+.fazeCont{
+    margin: .5%;
+    display: flex;
+}
+.fazeCont:hover{
+    text-decoration: underline;
+}
+.nightCont{
+    margin: .5%;
+    width: 100vw;
+}
+.nightCont:hover{
+    text-decoration: underline;
 }
