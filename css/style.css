@@ -1,0 +1,36 @@
+body{
+
+}
+header{
+    background-color: red;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+nav{
+    background-color: bisque;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+}
+.navBar{
+    margin: 1em;
+    font-size: 2em;
+}
+.profilePic{
+    border: solid grey .2em;
+    border-radius: 2em; 
+    height: 70%;
+    margin-bottom: 1%;
+}
+.projNav{
+    display: none;
+
+}
+#nav1:hover {
+    display: block;
+}
