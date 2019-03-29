@@ -11,7 +11,7 @@ header{
 }
 /* nav bar  */
 nav{
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content: space-evenly;
     color: white;
@@ -67,6 +67,7 @@ nav{
 footer{
     display: flex;
     flex-direction: row-reverse;
+    height:10vh;
 }
 #link{
     height: 10vh;
