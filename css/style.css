@@ -64,3 +64,10 @@ nav{
 .nightCont:hover{
     text-decoration: underline;
 }
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#link{
+    height: 10vh;
+}
