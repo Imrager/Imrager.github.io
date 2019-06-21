@@ -1,6 +1,8 @@
 body{
-    background: url(../images/background.gif);
-    background-size: 100%;
+    background: url(../images/bg.gif);
+    background-position: left bottom;
+    height: 100vh;
+    width: 100vw;
 }
 /* header include profile pic */
 header{
@@ -16,19 +18,31 @@ nav{
     justify-content: space-evenly;
     color: white;
 }
-
+#name{
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.089);
+    padding: 1%;
+    
+}
 .navBar{
     margin: 1em;
     font-size: 2em;
-    height: 7vh;
+    height: 10vh;
+    width: 14vw;
+    text-align: center;
+    padding: 1%;
+    background-color: black;
+    border-radius: .25em;
 }
 .navBar:hover{
     border-bottom: 2px solid white;
+    cursor: pointer;
 }
 /* profile pic style */
 .profilePic{
     border: solid grey .2em;
-    border-radius: 2em; 
+    border-radius: 10em; 
     height: 70%;
     margin-bottom: 1%;
  }
@@ -50,25 +64,14 @@ nav{
     margin-left: 20%;
     box-shadow: .4em .4em .1em .1em grey;
 }
-.fazeCont{
-    margin: .5%;
-    display: flex;
-}
-.fazeCont:hover{
-    text-decoration: underline;
-}
-.nightCont{
-    margin: .5%;
-    width: 100vw;
-}
-.nightCont:hover{
-    text-decoration: underline;
-}
+
 footer{
     display: flex;
     flex-direction: row-reverse;
-    height:10vh;
-}
-#link{
     height: 10vh;
+}
+#linkIn{
+    height: 10vh;
+    float: left;
+    padding: 10px;
 }
