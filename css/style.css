@@ -40,11 +40,10 @@ nav{
     cursor: pointer;
 }
 /* profile pic style */
-.profilePic{
-    border: solid grey .2em;
-    border-radius: 10em; 
+#profPic{
     height: 70%;
     margin-bottom: 1%;
+    margin-right: 10%;
  }
 /* drop down for profile on nav bar */
 .projNav{
@@ -74,4 +73,9 @@ footer{
     height: 10vh;
     float: left;
     padding: 10px;
+}
+#github{
+    height: 10vh;
+    float: left;
+    
 }
