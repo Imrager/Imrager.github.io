@@ -79,3 +79,35 @@ footer{
     float: left;
     
 }
+a:link{
+    color: none;
+}
+#modalDust{
+    width: 300px;
+    background-color: rgb(146, 134, 134);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    position: sticky;
+    margin: 0 auto;
+    margin-top: -40%;
+    animation: fadeIn 1s;
+}
+#fade{
+    opacity: .5;
+}
+#closeDust{
+    background-color: black;
+    width: 20px;
+    padding: 4px;
+    border-radius: 20px;
+    float: right;
+    margin-top: -2%;
+}
+#closeDust:hover{
+    cursor: pointer;
+}
+@keyframes fadeIn{
+    from {opacity : 0}
+    to {opacity : 1}
+}
