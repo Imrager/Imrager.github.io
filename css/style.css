@@ -1,4 +1,4 @@
-body{
+#main{
     background: url(../images/bg.gif);
     background-position: left bottom;
     height: 100vh;
@@ -106,6 +106,20 @@ a:link{
 }
 #closeDust:hover{
     cursor: pointer;
+}
+#skillsPage{
+    background-color: rgba(15, 15, 15, 0.952);
+    height: 100vh;
+    overflow: auto;
+}
+.skillsRow{
+    height: 30vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills{
+
 }
 @keyframes fadeIn{
     from {opacity : 0}
